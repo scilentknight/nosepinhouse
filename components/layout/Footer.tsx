@@ -10,7 +10,7 @@ export function Footer() {
       <div className="mx-auto grid max-w-7xl gap-8 px-4 py-10 grid-cols-2 sm:px-6 sm:grid-cols-2 lg:grid-cols-4 lg:px-8">
         {/* Brand */}
         <div>
-          <Logo className="-mt-6"/>
+          <Logo className="-mt-6" />
 
           <p className="mt-3 text-sm leading-6 text-[#6F625D]">
             Timeless jewellery crafted with elegance, quality, and attention to
@@ -40,6 +40,15 @@ export function Footer() {
                 className="transition-colors hover:text-[#BA8B30]"
               >
                 Cart
+              </Link>
+            </li>
+
+            <li>
+              <Link
+                href="/faq"
+                className="transition-colors hover:text-[#BA8B30]"
+              >
+                FAQ
               </Link>
             </li>
           </ul>

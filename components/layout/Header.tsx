@@ -241,10 +241,10 @@ export function Header() {
 
       {/* Main Header */}
       <header className="sticky top-0 z-40 border-b border-[#E8DDD2] bg-[#FBF6EE]/95 backdrop-blur">
-        <div className="mx-auto flex max-w-7xl items-center gap-4 px-4 py-3.5 sm:px-6 lg:px-8">
+        <div className="mx-auto flex max-w-7xl items-center gap-20 px-4 py-1 sm:px-6 lg:px-8">
           {/* Logo */}
           <Link href="/" className="me-5 shrink-0">
-            <Logo iconSize={100} />
+            <Logo iconSize={80} />
           </Link>
 
           {/* Desktop Navigation */}

@@ -58,13 +58,14 @@ function CountUp({ target, suffix, duration = 2000 }) {
 
 export default function StatsSection() {
   return (
-    <section className="py-16 bg-white border-y border-gray-100">
-      <div className="container mx-auto px-4 max-w-5xl">
-        <div className="flex flex-col md:flex-row items-center justify-between gap-12 md:gap-4 text-center">
+    <section className="border-y border-[#E8DDD2] bg-[#FBF6EE] py-16">
+      <div className="mx-auto max-w-5xl px-4">
+        <div className="flex flex-col items-center justify-between gap-12 text-center md:flex-row md:gap-4">
           {statsData.map((stat, index) => (
             <div key={index} className="flex flex-col items-center">
               <CountUp target={stat.target} suffix={stat.suffix} />
-              <span className="text-[#153A4F] text-xs font-bold tracking-widest uppercase">
+
+              <span className="text-xs font-bold uppercase tracking-widest text-[#592D27]">
                 {stat.label}
               </span>
             </div>

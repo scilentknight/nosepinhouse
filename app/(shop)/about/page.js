@@ -8,7 +8,7 @@ export default function AboutPage() {
       {/* Hero */}
       <section className="relative min-h-[620px] overflow-hidden lg:min-h-[700px]">
         <Image
-          src="/images/about/about-hero.jpg"
+          src="/images/about/about-hero.jpeg"
           alt="NOSEPINHOUSE jewellery collection"
           fill
           priority
@@ -40,7 +40,7 @@ export default function AboutPage() {
 
             <div className="mt-9">
               <Link
-                href="/shop"
+                href="/jewellery"
                 className="group inline-flex items-center gap-3 rounded-full bg-secondary-500 px-7 py-3.5 text-sm font-semibold text-white transition-all hover:bg-secondary-600 hover:shadow-soft-lg"
               >
                 Explore Our Collection
@@ -82,7 +82,7 @@ export default function AboutPage() {
             </p>
           </div>
 
-          <div className="mx-auto mt-10 h-px w-20 bg-secondary-400" />
+          <div className="mx-auto mt-5 h-px w-50 bg-secondary-400" />
         </div>
       </section>
 
@@ -93,9 +93,10 @@ export default function AboutPage() {
           <div className="relative">
             <div className="absolute -bottom-5 -left-5 h-32 w-32 border border-secondary-400/40 sm:h-40 sm:w-40" />
 
-            <div className="relative aspect-[4/5] overflow-hidden">
+            <div className="relative aspect-[4/5] overflow-hidden rounded-lg">
+              {/* 1536 × 1024 pixels. (w x h) */}
               <Image
-                src="/images/about/about-story.jpg"
+                src="/images/about/about-story.png"
                 alt="NOSEPINHOUSE jewellery craftsmanship"
                 fill
                 sizes="(max-width: 1024px) 100vw, 50vw"
@@ -247,7 +248,7 @@ export default function AboutPage() {
 
             <div className="mt-9">
               <Link
-                href="/shop"
+                href="/jewellery"
                 className="group inline-flex items-center gap-3 text-sm font-semibold text-secondary-300"
               >
                 Discover the collection
@@ -260,7 +261,7 @@ export default function AboutPage() {
           </div>
 
           <div className="grid grid-cols-2 gap-4">
-            <div className="relative aspect-[3/4] overflow-hidden">
+            <div className="relative aspect-[3/4] overflow-hidden rounded-lg">
               <Image
                 src="/images/about/about-detail-1.jpg"
                 alt="NOSEPINHOUSE jewellery detail"
@@ -270,7 +271,7 @@ export default function AboutPage() {
               />
             </div>
 
-            <div className="relative mt-12 aspect-[3/4] overflow-hidden">
+            <div className="relative mt-12 aspect-[3/4] overflow-hidden rounded-lg">
               <Image
                 src="/images/about/about-detail-2.jpg"
                 alt="NOSEPINHOUSE jewellery detail"
@@ -356,7 +357,7 @@ export default function AboutPage() {
 
         <div className="mt-9">
           <Link
-            href="/shop"
+            href="/jewellery"
             className="inline-flex items-center gap-3 rounded-full bg-primary-700 px-8 py-4 text-sm font-semibold text-white shadow-soft transition-all hover:bg-primary-800 hover:shadow-soft-lg"
           >
             Shop Jewellery

@@ -366,7 +366,7 @@ export default function ContactPage() {
 
             {/* Shop */}
             <Link
-              href="/shop"
+              href="/jewellery"
               className="group border border-secondary-200/70 bg-background p-8 text-left transition-all hover:-translate-y-1 hover:shadow-soft-lg"
             >
               <span className="font-serif text-3xl text-secondary-600">♢</span>
@@ -436,7 +436,7 @@ export default function ContactPage() {
 
         <div className="mt-8">
           <Link
-            href="/shop"
+            href="/jewellery"
             className="inline-flex items-center gap-3 rounded-full bg-secondary-500 px-8 py-4 text-sm font-semibold text-white shadow-soft transition-all hover:bg-secondary-600 hover:shadow-soft-lg"
           >
             Discover Your Piece

@@ -14,7 +14,7 @@ export default function FloatingIcons() {
       </div>
 
       {/* Right side floating icons */}
-      <div className="fixed bottom-8 right-6 flex flex-col items-center space-y-4 z-50">
+      <div className="fixed bottom-8 right-6 flex flex-col items-center space-y-2 z-50">
         <a
           href="https://wa.me/9779861252006"
           target="_blank"
@@ -27,7 +27,7 @@ export default function FloatingIcons() {
 
         <button
           onClick={scrollToTop}
-          className="bg-[#9d363d] text-white p-3 shadow-md hover:bg-[#852a30] transition-colors flex items-center justify-center w-10 h-10"
+          className="bg-[#9d363d] text-white p-3 shadow-md hover:bg-[#852a30] transition-colors flex items-center justify-center w-10 h-10 rounded"
           aria-label="Scroll to top"
         >
           <ArrowUp size={20} />

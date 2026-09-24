@@ -59,7 +59,7 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
 
   if (slides.length === 1) {
     return (
-      <section className="relative isolate h-44 overflow-hidden sm:h-56 md:h-68 lg:h-0 xl:h-88">
+      <section className="relative isolate h-56 overflow-hidden rounded-lg sm:h-68 md:h-72 lg:h-[380px] xl:h-[430px]">
         <Slide slide={slides[0]} priority />
       </section>
     );
@@ -70,7 +70,7 @@ export function HeroCarousel({ slides }: HeroCarouselProps) {
   }
 
   return (
-    <section className="relative isolate h-44 overflow-hidden sm:h-56 md:h-68 lg:h-80 xl:h-88">
+    <section className="relative isolate h-56 overflow-hidden rounded-lg sm:h-68 md:h-72 lg:h-[380px] xl:h-[430px]">
       {/* Slides track */}
       <div
         className="flex h-full w-full transition-transform duration-700 ease-in-out"
